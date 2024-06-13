@@ -42,13 +42,13 @@ header h1 {
     font-weight: bold;
 }
 
-form {
+form.addContato {
     display: flex;
     max-width: 640px;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 16px;
-
+    
 }
 
 form input{
@@ -60,9 +60,10 @@ form input{
 
 }
 
-form button {
+form button.salvar {
     background-color: #009432;
     width: 150px;
+    height: 40px;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
@@ -91,20 +92,4 @@ table td {
 
 table td img {
     height: 30px;
-}
-
-.resultado {
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-}
-
-.aprovado {
-    background-color: #009432;
-}
-
-.reprovado {
-    background-color: red;
 }
